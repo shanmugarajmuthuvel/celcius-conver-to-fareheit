@@ -1,0 +1,38 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.container{
+	  text-align:center;
+     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #47a2f1c2;
+    width: 28%;
+    border-radius: 46px;
+    height: 32%;
+}
+i {
+    font-size: 19px;
+    padding-top: 5%;
+    color: black;
+}
+input{
+	border:none;
+	outline:none;
+	text-align:center;
+	padding:5px;
+	font-size:12px;
+}
+.inputbox input::-webkit-inner-spin-button,
+.inputbox input::-webkit-outer-spin-button{
+     display:none;		
+}
+
